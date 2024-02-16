@@ -5,7 +5,7 @@ const people = [
     {
         name: 'Bassel Fares',
         role: 'Software Engineer',
-        imageUrl: 'https://i.seadn.io/gae/y2QcxTcchVVdUGZITQpr6z96TXYOV0p3ueLL_1kIPl7s-hHn3-nh8hamBDj0GAUNAndJ9_Yuo2OzYG5Nic_hNicPq37npZ93T5Nk-A?auto=format&dpr=1&w=1000',
+        imageUrl: '/BasselPic.png',
         linkedInUrl: 'https://www.linkedin.com/in/basselfares',
         githubUrl: 'https://github.com/basselfares',
     },
@@ -19,14 +19,14 @@ const people = [
     {
         name: 'Lucas Ho',
         role: 'Software Engineer',
-        imageUrl: 'https://i.seadn.io/gae/y2QcxTcchVVdUGZITQpr6z96TXYOV0p3ueLL_1kIPl7s-hHn3-nh8hamBDj0GAUNAndJ9_Yuo2OzYG5Nic_hNicPq37npZ93T5Nk-A?auto=format&dpr=1&w=1000',
+        imageUrl: 'https://media.licdn.com/dms/image/C5103AQFfEyfUKvCxHA/profile-displayphoto-shrink_400_400/0/1578229212644?e=1713398400&v=beta&t=V5AGsvKfUBayHoAOoUBsfwCaDTWdsJFJJbsXjW5h5T4',
         linkedInUrl: 'https://www.linkedin.com/in/luchd/',
         githubUrl: 'https://github.com/luchd',
     },
     {
         name: 'Nassim Chibane',
         role: 'Software Engineer',
-        imageUrl: 'https://i.seadn.io/gae/y2QcxTcchVVdUGZITQpr6z96TXYOV0p3ueLL_1kIPl7s-hHn3-nh8hamBDj0GAUNAndJ9_Yuo2OzYG5Nic_hNicPq37npZ93T5Nk-A?auto=format&dpr=1&w=1000',
+        imageUrl: 'https://media.licdn.com/dms/image/D4D03AQFTCKoaEa1RSA/profile-displayphoto-shrink_200_200/0/1708046525786?e=2147483647&v=beta&t=xXwlZ4Mx5QnYMAnQSstVS3K_9N1R5Yfmbae4i_86Wc0',
         linkedInUrl: 'https://www.linkedin.com/in/nassimchibane/',
         githubUrl: 'https://github.com/nchib',
     },
