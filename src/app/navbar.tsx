@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from "next/image"
+import Link from 'next/link';
 
 export default function Navbar() {
   return (
@@ -7,9 +8,9 @@ export default function Navbar() {
       <div className="mx-16 px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-28 items-center justify-between">
           <div className="flex flex-1 items-center justify-center lg:items-stretch lg:justify-start">
-            <a href="/" className="flex flex-shrink-0 items-center">
+            <Link href="/" className="flex flex-shrink-0 items-center">
               <Image className="h-12 w-auto rounded-full" src="/TimeKubeLogo.png" alt="TimeKube Logo" width={64} height={64}/>
-            </a>
+            </Link>
             <div className="ml-6">
               <div className="flex space-x-10">
                 <a href="/" className="bg-gray-900 text-white rounded-md px-3 py-2 text-2xl font-medium" aria-current="page">TimeKube</a>
