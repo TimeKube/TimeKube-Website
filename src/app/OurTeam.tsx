@@ -33,7 +33,7 @@ const people = [
     {
         name: 'Ryan Sawadichai',
         role: 'Software Engineer',
-        imageUrl: 'https://i.seadn.io/gae/y2QcxTcchVVdUGZITQpr6z96TXYOV0p3ueLL_1kIPl7s-hHn3-nh8hamBDj0GAUNAndJ9_Yuo2OzYG5Nic_hNicPq37npZ93T5Nk-A?auto=format&dpr=1&w=1000',
+        imageUrl: '/RyanPic.png',
         linkedInUrl: 'https://www.linkedin.com/in/ryan-sawadichai',
         githubUrl: 'https://github.com/rswdch',
     },
