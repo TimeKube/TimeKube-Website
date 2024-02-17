@@ -49,7 +49,7 @@ export default function OurTeam() {
           </div> 
           <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           {people.map((person) => (
-            <li key={person.name}>
+            <li className='list-none p-0' key={person.name}>
               <div className="text-center text-gray-400">
                   <img className="mx-auto mb-4 w-36 h-36 rounded-full" src={person.imageUrl} alt="Profile Picture"/>
                   <h3 className="mb-1 text-2xl font-bold tracking-tight text-white">
