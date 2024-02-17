@@ -23,6 +23,7 @@ export default function RootLayout({
 
   return (
     <html lang="en" style={{height: "100vh", width: "100vw", background:"white"}}>
+      <head><link rel="icon" href="/timekubeFavicon.ico"/></head>
       <body className={inter.className}>
         <Navbar />
         {children}

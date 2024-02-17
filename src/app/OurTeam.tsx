@@ -41,7 +41,7 @@ const people = [
 
 export default function OurTeam() {
     return (
-    <section className="bg-white dark:bg-gray-900">
+    <section className="bg-gray-900">
       <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-8 lg:px-6">
           <div className="mx-auto mb-8 max-w-screen-sm lg:mb-6">
               <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Meet the Team!</h2>
