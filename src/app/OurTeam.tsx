@@ -44,26 +44,26 @@ export default function OurTeam() {
     <section className="bg-gray-900">
       <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-8 lg:px-6">
           <div className="mx-auto mb-8 max-w-screen-sm lg:mb-6">
-              <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Meet the Team!</h2>
-              <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">Meet the team responsible for building TimeKube</p>
+              <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white">Meet the Team!</h2>
+              <p className="font-light sm:text-xl text-gray-400">Meet the team responsible for building TimeKube</p>
           </div> 
           <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           {people.map((person) => (
             <li key={person.name}>
-              <div className="text-center text-gray-500 dark:text-gray-400">
+              <div className="text-center text-gray-400">
                   <img className="mx-auto mb-4 w-36 h-36 rounded-full" src={person.imageUrl} alt="Profile Picture"/>
-                  <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h3 className="mb-1 text-2xl font-bold tracking-tight text-white">
                       <div>{person.name}</div>
                   </h3>
                   <p>{person.role}</p>
                   <ul className="flex justify-center mt-4 space-x-4">
                       <li>
-                          <a href={person.linkedInUrl} className="text-[#00acee] hover:text-gray-900 dark:hover:text-white" target="_blank">
+                          <a href={person.linkedInUrl} className="text-[#00acee] hover:text-white" target="_blank">
                               <Image className="w-10 h-10" src="/LinkedInLogo.png" alt="LinkedInLogo" width={24} height={24}/>
                           </a>
                       </li>
                       <li>
-                          <a href={person.githubUrl} className="text-gray-900 hover:text-gray-900 dark:hover:text-white dark:text-gray-300" target="_blank">
+                          <a href={person.githubUrl} className="hover:text-white text-gray-300" target="_blank">
                             <Image className="w-10 h-10" src="/GithubLogo.svg" alt="GithubLogo" width={24} height={24}/>
                           </a>
                       </li>
